@@ -1,4 +1,4 @@
-# Task Manager Full Stack
+# Gestor de tareas
 
 Aplicacion de gestion de tareas con un backend desarrollado en Node.js/Express y un frontend en React. Permite crear, editar, eliminar y filtrar tareas con persistencia de datos usando SQLite.
 
