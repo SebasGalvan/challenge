@@ -103,17 +103,17 @@ La aplicación estará disponible en `http://localhost:5173`.
 ## Capturas de Pantalla
 
 ### Lista de Tareas
-![Lista de Tareas](/img/lista_de_tareas.png)
+![Lista de Tareas](https://github.com/SebasGalvan/challenge/blob/master/img/lista_de_tareas.PNG)
 
 La vista principal muestra todas las tareas con opciones de filtrado y búsqueda.
 
 ### Crear Tarea
-![Crear Tarea](/img/crear_tarea.png)
+![Crear Tarea](https://github.com/SebasGalvan/challenge/blob/master/img/crear_tarea.PNG)
 
 Formulario para añadir una nueva tarea con validación de campos.
 
 ### Editar Tarea
-![Editar Tarea](/img/editar_tarea.png)
+![Editar Tarea](https://github.com/SebasGalvan/challenge/blob/master/img/editar_tarea.PNG)
 
 Interfaz para modificar los detalles de una tarea existente.
 
