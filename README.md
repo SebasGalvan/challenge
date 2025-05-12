@@ -43,8 +43,6 @@ task-manager/
 
  ![Swagger](https://github.com/SebasGalvan/challenge/blob/master/img/swagger.PNG)
 
-https://github.com/SebasGalvan/challenge/blob/master/img/swagger.PNG
-
 ### Configuración Backend
 
 1. Navega al directorio backend:
