@@ -1,0 +1,152 @@
+/* App.css */
+
+/* Layout Styles */
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.task-manager-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.task-grid {
+  margin-top: 16px;
+}
+
+.task-grid-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.task-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card .ant-card-body {
+  flex: 1;
+}
+
+.task-card .ant-card-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .task-manager-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .site-layout-content {
+    padding: 16px;
+  }
+}
+
+.ant-badge-status-success {
+  background-color: #52c41a;
+}
+
+.ant-badge-status-processing {
+  background-color: #1890ff;
+}
+
+.filter-card {
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.task-filters {
+  display: flex;
+  align-items: flex-end;
+}
+
+.task-filters .ant-space {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .task-filters {
+    flex-direction: column;
+  }
+  
+  .task-filters .ant-col {
+    margin-bottom: 12px;
+  }
+}
+
+
+
+.description-container {
+  /* Contenedor con altura fija */
+  height: 98px; /* Aproximadamente 3 líneas de texto (24px por línea) */
+  overflow: hidden;
+  position: relative;
+}
+
+.task-description {
+  /* Estilo para el texto de la descripción */
+  margin: 0;
+  padding-right: 4px;
+  max-height: 100%;
+  overflow-y: auto;
+  
+  /* Para la barra de desplazamiento */
+  scrollbar-width: thin; /* Para Firefox */
+  scrollbar-color: #d9d9d9 #f5f5f5; /* Para Firefox */
+}
+
+/* Estilo para la barra de desplazamiento en Chrome, Edge y Safari */
+.task-description::-webkit-scrollbar {
+  width: 6px;
+}
+
+.task-description::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+.task-description::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 3px;
+}
+
+/* Garantizar que el texto se muestra en líneas completas */
+.task-description p {
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+/* Ajustes adicionales para la tarjeta */
+.task-card .ant-card-body {
+  padding: 16px;
+}
+
+/* Asegurarse de que el párrafo no tenga margen inferior en el último elemento */
+.task-description p:last-child {
+  margin-bottom: 0;
+}
