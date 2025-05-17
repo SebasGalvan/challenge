@@ -39,7 +39,6 @@ task-manager/
 | PUT | `/api/tasks/:id` | Actualizar una tarea existente |
 | DELETE | `/api/tasks/:id` | Eliminar una tarea |
 | GET | `/api/tasks/:id` | Buscar tareas por id |
-|pendiente) |
 
  ![Swagger](https://github.com/SebasGalvan/challenge/blob/master/img/swagger.PNG)
 
